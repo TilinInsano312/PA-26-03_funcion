@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 public class Estructural {
-    ArrayList<Double> notas = new ArrayList();
+    ArrayList<Double> notas = new ArrayList<>();
     Scanner scan = new Scanner(System.in);
 
     public Estructural() {
@@ -24,7 +24,7 @@ public class Estructural {
         for (int i = 0; i < size; i++) {
             notas.add((double)Math.round(((Math.random() * 6) + 1) * 10d) / 10d);
         }
-        System.out.println(notas);
+        System.out.println("notas: "+notas);
         return notas;
     }
     public void compararNotas(ArrayList<Double> notas) {
